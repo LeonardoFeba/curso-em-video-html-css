@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <!--Fonts Ninja é uma extensão para identificar as fontes utilizadas em um site-->
+    <!--whatfontis.com -> para buscar fontes dentro de imagens-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+      body {
+        font-size: 1.5em;
+        /*
+        Medidas Absolutas:
+        cm, mm, in, px, pt, pc
+        Medidas Relativas:
+        em, ex, rem, vw, vh %
+
+        W3C recomenda usar "px" e "em"
+        16px geralmente = 1em (em = tamanho do M)
+        As unidades "em" depende da fonte e pode se diferente para cada elemento no documento. "em" é, simplesmente, o tamanho da fonte
+        */
+        font-weight: bolder;
+        font-style: italic;
+        text-decoration: underline;
+        font-family: "Work Sans" Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        /* font-family: "Work Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; */
+        /*----------------------*/
+        /* shorthand font
+        - font-style -> font weight -> font-size -> font-family */
+        font: italic 400 3em "Work Sans";
+        text-decoration: underline;
+      }
+      h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font: normal 200 2em "Source Code Pro";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugit
+      nam rerum harum velit, sed mollitia. Expedita accusamus labore earum
+      distinctio ducimus ea, non in, a officiis nam ex dolorem?
+    </p>
+    <h2>Subtitle</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+      expedita ad commodi minima eum, iusto aliquid. Aut, iusto ullam dolores
+      aperiam numquam, delectus, beatae obcaecati natus alias voluptate at quia.
+    </p>
+  </body>
+</html>

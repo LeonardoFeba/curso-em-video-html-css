@@ -1,0 +1,5 @@
+Adobe Color (beeem legal, porém só não será possível salvar as paletas sem conta)
+paletton.com (mostra um exemplo de site com as cores selecionadas. botão "EXAMPLES...")
+coolors.co (gerador de paletas com o mecanismo "descobrir", apertar a barra de espaço)
+extensão ColorZila (para pegar cor de algum site)
+

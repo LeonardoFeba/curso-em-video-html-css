@@ -1,0 +1,5 @@
+#83E9B0 cima do header
+	Degrade ^
+#185433 baixo do header
+
+#84E1AD "background do main"

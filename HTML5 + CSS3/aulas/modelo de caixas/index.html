@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      /* margin = borda pra fora
+        padding = borda pra dentro */
+      h1 {
+        /*block-level */
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: darkslategray; */
+        border: 10px solid darkslategray;
+        /* shorthand */
+
+        /* padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px; */
+        /* padding: 10px 10px 10px 10px; sentido horário começando pelo top*/
+        padding: 10px;
+
+        /* margin: auto; */
+        /* margin auto faz com que o elemento fique centralizado horizontalmente */
+        /* margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px; */
+        margin: 10px auto 20px auto;
+        /* shorthand */
+
+        outline: 5px dashed salmon;
+      }
+      a {
+        /*inline-level*/
+        border: 10px solid khaki;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <!--
+      box-level: sempre se inicía em uma linha nova e ocupa toda a largura da tela, pula linha para dar continuidade ao conteúdo (EXEMPLO: <div>, <h1-h6>, <p>, <main>, <nav>, <article>, <aside>, <form>, <video> )
+      
+      inline-level: não quebra a linha e tem o tamanho de seu conteúdo, dá continuidade próximo conteúdo na mesma linha
+      (EXEMPLO: <span>, <a>, <small>, <strong>, <input>, <select>, <code>, <sup-sub>, <em>)
+   -->
+  <body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de caixas box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+  </body>
+</html>

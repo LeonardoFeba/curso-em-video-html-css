@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* id = # */
+/* Cada ID só pode ser usada uma vez no documento*/
+/* class = . */
+/* Usamos class quando queremos usar a mesma configuração em diferentes elementos*/
+/* é possível colocar 2 classes no mesmo elemento e também id e class no mesmo elemento (o id sobrepõe) */
+body {
+  background: #f6b4afc0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #ca4978;
+}
+h1#principal {
+  text-align: center;
+  background-color: #681e3a;
+  color: #f4b6cd;
+}
+h2 {
+  color: #7d0f37;
+}
+
+.basico {
+  color: green;
+  font-weight: bold;
+}
+.intermediario {
+  color: rgba(4, 0, 255, 0.776);
+}
+.avancado {
+  color: red;
+}
+
+.destaque {
+  background-color: rgba(197, 197, 96, 0.438);
+}
